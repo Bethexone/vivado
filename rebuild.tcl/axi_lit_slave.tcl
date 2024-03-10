@@ -76,8 +76,8 @@ proc checkRequiredFiles { origin_dir} {
 
   return $status
 }
-# Set the reference directory for source file relative paths (by default the value is script directory path)
-set origin_dir "."
+# Set the reference directory to where the script is
+set origin_dir [file dirname [info script]]
 
 # Use origin directory path location variable, if specified in the tcl shell
 if { [info exists ::origin_dir_loc] } {
