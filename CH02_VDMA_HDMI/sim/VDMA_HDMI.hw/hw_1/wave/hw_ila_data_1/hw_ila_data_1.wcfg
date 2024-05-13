@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/Project/vivado/project/VDMA_HDMI/VDMA_HDMI.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0"></ZoomStartTime>
+      <ZoomEndTime time="19,001"></ZoomEndTime>
+      <Cursor1Time time="200"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="253"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="VDMA_u0/VDMA_i/rst_clk_0_peripheral_aresetn" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">VDMA_u0/VDMA_i/rst_clk_0_peripheral_aresetn</obj_property>
+      <obj_property name="ObjectShortName">rst_clk_0_peripheral_aresetn</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">rst_clk_0_peripheral_aresetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="VDMA_u0/VDMA_i/v_axi4s_vid_out_0_vid_active_video" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">VDMA_u0/VDMA_i/v_axi4s_vid_out_0_vid_active_video</obj_property>
+      <obj_property name="ObjectShortName">v_axi4s_vid_out_0_vid_active_video</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">vid_out_0_vid_active_video</obj_property>
+   </wvobject>
+   <wvobject fp_name="VDMA_u0/VDMA_i/v_axi4s_vid_out_0_vid_hsync" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">VDMA_u0/VDMA_i/v_axi4s_vid_out_0_vid_hsync</obj_property>
+      <obj_property name="ObjectShortName">v_axi4s_vid_out_0_vid_hsync</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">vid_out_0_vid_hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="VDMA_u0/VDMA_i/v_axi4s_vid_out_0_vid_vsync" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">VDMA_u0/VDMA_i/v_axi4s_vid_out_0_vid_vsync</obj_property>
+      <obj_property name="ObjectShortName">v_axi4s_vid_out_0_vid_vsync</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">vid_out_0_vid_vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="VDMA_u0/VDMA_i/v_axi4s_vid_out_0_vid_data" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">VDMA_u0/VDMA_i/v_axi4s_vid_out_0_vid_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">v_axi4s_vid_out_0_vid_data[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="label">vid_out_0_vid_data[7:0]</obj_property>
+   </wvobject>
+</wave_config>
