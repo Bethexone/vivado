@@ -1,0 +1,72 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.69207",
+   "Default View_TopLeft":"1286,206",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0 threadsafe
+#  -string -flagsOSRD
+preplace port mipi_phy_if_0 -pg 1 -lvl 0 -x 0 -y 340 -defaultsOSRD
+preplace port cam_IIC -pg 1 -lvl 9 -x 3140 -y 130 -defaultsOSRD
+preplace port DDR_0 -pg 1 -lvl 9 -x 3140 -y 80 -defaultsOSRD
+preplace port FIXED_IO_0 -pg 1 -lvl 9 -x 3140 -y 100 -defaultsOSRD
+preplace port hdmi_IIC -pg 1 -lvl 9 -x 3140 -y 290 -defaultsOSRD
+preplace port GPIO_0 -pg 1 -lvl 9 -x 3140 -y 320 -defaultsOSRD
+preplace port port-id_vid_out_active_video -pg 1 -lvl 9 -x 3140 -y 460 -defaultsOSRD
+preplace port port-id_vid_out_hsync -pg 1 -lvl 9 -x 3140 -y 610 -defaultsOSRD
+preplace port port-id_vid_out_vsync -pg 1 -lvl 9 -x 3140 -y 650 -defaultsOSRD
+preplace port port-id_video_out_clk -pg 1 -lvl 9 -x 3140 -y 630 -defaultsOSRD
+preplace portBus video_out -pg 1 -lvl 9 -x 3140 -y 540 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 7 -x 2508 -y 130 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 5 -x 1515 -y 330 -defaultsOSRD
+preplace inst mipi_csi2_rx_subsyst_0 -pg 1 -lvl 4 -x 1096 -y 390 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 110 -y 230 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 400 -y 240 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 3 -x 756 -y 250 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 7 -x 2508 -y 640 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 6 -x 2004 -y 770 -defaultsOSRD
+preplace inst smartconnect_1 -pg 1 -lvl 6 -x 2004 -y 380 -defaultsOSRD -resize 240 136
+preplace inst axis_subset_converter_0 -pg 1 -lvl 6 -x 2004 -y 560 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 8 -x 2994 -y 540 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 7 -x 2508 -y 880 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 6 -x 2004 -y 130 -defaultsOSRD
+preplace inst system_ila_2 -pg 1 -lvl 8 -x 2994 -y 740 -defaultsOSRD
+preplace inst system_ila_1 -pg 1 -lvl 8 -x 2994 -y 210 -defaultsOSRD
+preplace inst system_ila_3 -pg 1 -lvl 8 -x 2994 -y 390 -defaultsOSRD
+preplace netloc clk_wiz_0_clk_out1 1 1 7 210 120 606 330 936 270 1335 190 1814 480 2248 400 NJ
+preplace netloc clk_wiz_0_clk_out2 1 1 3 210 410 NJ 410 NJ
+preplace netloc clk_wiz_0_clk_out3 1 1 7 200 100 NJ 100 NJ 100 NJ 100 1700J 260 NJ 260 2770J
+preplace netloc clk_wiz_0_locked 1 1 6 220 130 NJ 130 NJ 130 NJ 130 1690J 650 2278
+preplace netloc clk_wiz_1_clk_out1 1 5 4 1844 670 2238 810 2874 630 NJ
+preplace netloc clk_wiz_1_locked 1 5 3 1794 660 2268 460 2750
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 5 616 350 916 250 1345 200 1824 640 N
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 8 20 110 NJ 110 NJ 110 NJ 110 NJ 110 1804J 270 NJ 270 2750
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 7 230 140 NJ 140 NJ 140 NJ 140 1710J 280 NJ 280 2740
+preplace netloc v_axi4s_vid_out_0_vid_active_video 1 7 2 2884 460 NJ
+preplace netloc v_axi4s_vid_out_0_vid_data 1 7 1 2894 520n
+preplace netloc v_axi4s_vid_out_0_vid_hsync 1 7 2 2864 620 3100J
+preplace netloc v_axi4s_vid_out_0_vid_vsync 1 7 2 2854 640 3100J
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 5 3 1834 470 NJ 470 2740
+preplace netloc xlconcat_0_dout 1 8 1 NJ 540
+preplace netloc axi_vdma_0_M_AXIS_MM2S 1 5 1 1794 100n
+preplace netloc axi_vdma_0_M_AXI_MM2S 1 5 1 1774 60n
+preplace netloc axi_vdma_0_M_AXI_S2MM 1 5 1 1784 80n
+preplace netloc axis_subset_converter_0_M_AXIS 1 6 1 N 560
+preplace netloc mipi_csi2_rx_subsyst_0_video_out 1 4 2 1325 120 NJ
+preplace netloc mipi_phy_if_0_1 1 0 4 NJ 340 NJ 340 NJ 340 946J
+preplace netloc processing_system7_0_DDR 1 7 2 NJ 80 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 7 2 NJ 100 NJ
+preplace netloc processing_system7_0_GPIO_0 1 7 2 2884 320 NJ
+preplace netloc processing_system7_0_IIC_0 1 7 2 2894 130 NJ
+preplace netloc processing_system7_0_IIC_1 1 7 2 2874 290 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 2 6 616 170 NJ 170 NJ 170 1834 290 NJ 290 2760
+preplace netloc smartconnect_0_M00_AXI 1 3 1 926 240n
+preplace netloc smartconnect_0_M01_AXI 1 3 2 NJ 260 N
+preplace netloc smartconnect_1_M00_AXI 1 6 1 2170 120n
+preplace netloc v_tc_0_vtiming_out 1 6 1 2258 580n
+levelinfo -pg 1 0 110 400 756 1096 1515 2004 2508 2994 3140
+pagesize -pg 1 -db -bbox -sgen -140 0 3360 1650
+"
+}
+{
+   "da_clkrst_cnt":"7"
+}

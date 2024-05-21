@@ -1,0 +1,3 @@
+domain_path: D:\Project\vivado\project\CH03_MIPI\vitis\mipi_platform\export\mipi_platform\sw\standalone_ps7_cortexa9_0
+app_src_dir: C:\Xilinx_2023.2\Vitis\2023.2\data\embeddedsw\lib\sw_apps\empty_application
+template: empty_application
